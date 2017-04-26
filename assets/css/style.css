@@ -1,0 +1,135 @@
+html{
+  background: url(../images/topography.png) repeat center fixed;
+}
+body{
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+h2{
+  color: #4AAAA5;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  margin-bottom: 15px;
+}
+h3{
+  color: #4AAAA5;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  margin-bottom: 15px;
+}
+hr{
+  height: 4px;
+  background-color: #DDDDDD;
+  border: none;
+}
+nav{
+  height: 80px;
+  border-bottom: solid 2px #DDDDDD !important;
+  width: 100%;
+  background-color: white;
+}
+nav a{
+  text-decoration: none;
+}
+nav a:hover{
+  text-decoration: underline;
+}
+.nav-container{
+  height: 100%;
+  width: 960px;
+  margin: 0 auto;
+}
+#your-name{
+  float: left;
+  padding: 28px 16px;
+  width: 180px;
+  font-size: 24px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-weight: bold;
+  position: relative;
+  background-color: #4AAAA5;
+  color: white;
+}
+.navbar-menu{
+    float: right;
+    padding: 0px 10px;
+    margin: 28px 0;
+    font-size: 18px;
+    color: #9C9AA4;
+    border-right: solid 1px #DDDDDD;
+}
+.no-border{
+  border: none !important;
+}
+#main-section{
+  float: left;
+  width: 620px;
+  margin: 30px 20px 100px 0px;
+  padding: 20px 10px;
+  border: solid 1px #DDDDDD;
+  background-color: white;
+}
+#main-section img{
+  width: 200px;
+  float: left;
+  padding: 0px 15px 15px 0px;
+}
+#portfolio img{
+  margin: 8px 12px;
+  width: 240px;
+  float: left;
+  padding: 20px 20px 20px 20px;
+}
+.main-container{
+  height: 100%;
+  width: 960px;
+  margin: 0 auto;
+}
+#name{
+  padding: 5px;
+  margin: 5px 0px 12px 0px;
+  width: 98%;
+}
+#email{
+  padding: 5px;
+  margin: 5px 0px 12px 0px;
+  width: 98%;
+}
+#message{
+  padding: 5px;
+  margin: 5px 0px 12px 0px;
+  width: 98%;
+  height: 140px;
+}
+#submit{
+  background-color: #4AAAA5;
+  color: white;
+  padding: 8px;
+  margin: 5px 0px;
+  font-size: 18px;
+  width: 100px;
+}
+#connect-w-me-section{
+  float: left;
+  width: 250px;
+  margin: 30px 0px 0px 0px;
+  padding: 20px;
+  border: solid 1px #DDDDDD;
+  background-color: white;
+}
+#connect-w-me-section img{
+  width: 60px;
+  margin: 7px 1px;
+}
+footer{
+  padding: 30px;
+  height: 35px;
+  margin-top: -50px;
+  background-color: #666666;
+  color: white;
+  border-top: solid 5px #4AAAA5 !important;
+  clear: both;
+  text-align: center;
+  width: 100%;
+}
