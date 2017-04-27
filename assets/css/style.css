@@ -3,6 +3,7 @@ html{
 }
 body{
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;
 }
 h2{
   color: #4AAAA5;
@@ -76,9 +77,24 @@ nav a:hover{
   padding: 0px 15px 15px 0px;
 }
 #portfolio img{
+  display: grid;
   margin: 8px 12px;
   width: 240px;
   float: left;
+  padding: 20px 20px 20px 20px;
+}
+#portfolio div{
+  display: grid;
+  position: relative;
+  text-align: center;
+  font-size: 22px;
+  top: 270px;
+  left: 32px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: white;
+  background-color: #4AAAA5;
+  width: 200px;
+  margin: 8px 0px;
   padding: 20px 20px 20px 20px;
 }
 .main-container{
@@ -119,7 +135,7 @@ nav a:hover{
   background-color: white;
 }
 #connect-w-me-section img{
-  width: 60px;
+  width: 78px;
   margin: 7px 1px;
 }
 footer{
